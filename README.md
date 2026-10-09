@@ -1,2 +1,59 @@
-# moban-ai-learning-terminal
-Moban is an ESP32-S3-based AI desktop learning companion featuring a 4.2-inch e-paper display, audio interaction, and embedded hardware design. Hardware development is underway; firmware and AI learning features are planned.
+# 墨伴 Moban
+### 基于 ESP32-S3 的 AI 智能桌面学习陪伴终端
+
+**An ESP32-S3 Based AI Desktop Learning Companion**
+
+## 项目简介 / Overview
+
+墨伴（Moban）是一款面向高校学生及自主学习人群的开源智能桌面学习终端项目，旨在探索生成式人工智能与嵌入式硬件、电子墨水屏及语音交互技术相结合的教育应用形式。
+
+项目以 ESP32-S3 为核心控制器，设计集成 4.2 英寸电子墨水屏、音频采集与播放、电池供电管理、MicroSD 数据存储及无线通信等功能模块，为后续 AI 学习辅助系统提供硬件基础。
+
+项目计划通过 AI 大模型实现自然语言交互、学习任务规划、知识点问答和个性化学习反馈。
+
+## 硬件架构 / Hardware
+
+| 模块 | 技术方案 |
+|---|---|
+| 主控芯片 | ESP32-S3-WROOM-1-N16R8 |
+| 显示模块 | 4.2 英寸电子墨水屏（400×300） |
+| 显示驱动 | SSD1683 |
+| 软件框架 | ESP-IDF |
+| 音频系统 | 麦克风采集与扬声器播放 |
+| 数据存储 | MicroSD |
+| 电源管理 | 锂电池供电、USB充电、电压转换 |
+| PCB | 四层板设计 |
+| 无线通信 | Wi-Fi |
+
+## 计划实现的功能 / Planned Features
+
+- AI 智能语音交互
+- 学习知识点问答
+- 个性化学习计划生成
+- 学习任务提醒
+- 电子墨水屏信息展示
+- 学习记录存储与管理
+
+以上为规划功能，实际实现情况以开发进度为准。
+
+## 开发状态 / Development Status
+
+| 项目 | 当前状态 |
+|---|---|
+| 系统架构设计 | 已完成初步方案 |
+| 硬件原理图 | 已完成设计，待进一步验证 |
+| 四层 PCB | 已开展布局布线，待最终确认 |
+| PCB 打样 | 尚未开始 |
+| 嵌入式固件 | 开发与调试阶段 |
+| AI 学习应用 | 规划阶段 |
+| 整机集成测试 | 尚未开始 |
+
+当前项目处于硬件设计和软件原型开发阶段，尚未完成整机验证。
+
+## 项目应用方向
+
+本项目计划参加“人工智能+教育”创新应用技能大赛的 **赛道二：AI 研发创作**，重点探索 AI 技术在自主学习辅助系统中的应用。
+
+## 开源说明
+
+项目仍在开发过程中。代码与硬件设计文件将经过整理、审核后逐步公开。具体使用及再分发权限以仓库后续正式发布的许可证为准。
